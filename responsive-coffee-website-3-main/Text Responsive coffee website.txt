@@ -1,9 +1,9 @@
 ========== HEADER ==========
 .nav__logo
-STARCOFFEE
+PhongNguyenCOFFEE
 
 .nav__link
-HOME - POPULAR - ABOUT US - PRODUCTS - CONTACT
+Trang chủ - Phổ biến - Về chúng tôi - Sản phẩm - Liên hệ
 
 
 ========== HOME ==========
@@ -11,106 +11,103 @@ HOME - POPULAR - ABOUT US - PRODUCTS - CONTACT
 COLD COFFEE
 
 .home__description
-Find delicious hot and cold coffees with the 
-best varieties, calm the pleasure and enjoy 
-a good coffee, order now.
+Thưởng thức những ly cà phê nóng và lạnh ngon tuyệt với nhiều hương vị đa dạng,
+thư giãn và tận hưởng một tách cà phê tuyệt vời,
+đặt ngay hôm nay.
 
 .button
-Learn More
-
+Tìm hiểu thêm
 
 ========== POPULAR ==========
 .section__title
-POPULAR <br> CREATIONS
+NHỮNG SẢN PHẨM <br> PHỔ BIẾN
 
 .popular__name
-VANILLA LATTE
-CLASSIC COFFEE
-MOCHA COFFEE
+LATTE VANI
+CÀ PHÊ CỔ ĐIỂN
+CÀ PHÊ MOCHA
 
 .popular__description
-Indulge in the simplicity of our delicious cold brew coffee.
+Đắm chìm trong sự đơn giản của cà phê cold brew thơm ngon.
 
 .button
-Order now: $19.90
+Đặt ngay: 39.000 VND
 
 
 ========== ABOUT ==========
 .section__title
-LEARN MORE <br> ABOUT US
+TÌM HIỂU <br> VỀ CHÚNG TÔI
 
 .about__description
-Welcome to StarCoffee, where coffee is pure passion. 
-From bean to cup, we are dedicated to delivering 
-excellence in every sip. Join us on a journey of 
-flavor and quality, crafted with love to create the 
-ultimate coffee experience.
+Chào mừng đến với StarCoffee, nơi cà phê là niềm đam mê thuần khiết. 
+Từ hạt đến tách, chúng tôi luôn tận tâm mang đến sự xuất sắc trong từng ngụm. 
+Hãy cùng chúng tôi bước vào hành trình hương vị và chất lượng, được tạo nên bằng tình yêu, 
+để mang đến trải nghiệm cà phê tuyệt vời nhất.
 
 .button
-The Best Coffees
+Những loại cà phê ngon nhất
 
 
 ========== PRODUCTS ==========
 .section__title
-THE MOST <br> REQUESTED
+NHỮNG SẢN PHẨM <br> ĐƯỢC YÊU THÍCH NHẤT
 
 .products__name .products__price
-ICED COFFEE MOCHA
-$15.90
+CÀ PHÊ LẠNH MOCHA
+34.000 VND
 
-COFFEE WITH CREAM
-$11.90
+CÀ PHÊ KEM
+28.000 VND
 
-CAPPUCCINO COFFEE
-$19.90
+CAPPUCCINO
+49.000VND
 
-COFFEE WITH MILK
-$9.90
+CÀ PHÊ SỮA
+32.000VND
 
-CLASSIC ICED COFFEE
-$5.90
+CÀ PHÊ ĐÁ CỔ ĐIỂN
+26.000 VND
 
-ICED COFFEE FRAPPE
-$16.90
+CÀ PHÊ FRAPPE LẠNH
+36.000 VND
 
 
 ========== CONTACT ==========
 .section__title
-CONTACT US
+LIÊN HỆ VỚI CHÚNG TÔI
 
 .contact__title .contact__address
-Write Us
-https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+Viết cho chúng tôi
+https://api.whatsapp.com/send?phone=51123456789&text=Xin chào, cho tôi thêm thông tin!
 https://m.me/bedimcode
 https://t.me/telegram
 
-Location
+Địa chỉ
 Lima - Sun City - Peru <br>
 Av. Moon #4321
 
 https://maps.app.goo.gl/MAmMDxUBFXBSUzLH7
-View On Map
+Xem trên bản đồ
 
-Delivery
+Giao hàng
 +00-987-7654-321 <br>
 +11-012345
 
-Attention
-Monday - Saturday <br> 9AM - 10PM
-
+Giờ phục vụ
+Thứ Hai - Thứ Bảy <br> 9h sáng - 10h tối
 
 ========== FOOTER ==========
 .footer__title
-Social
+Mạng xã hội
 https://www.facebook.com/
 https://www.instagram.com/
 https://twitter.com/
 
-Payment Methods
+Phương thức thanh toán
 
-Subscribe For Discounts
+Đăng ký nhận ưu đãi
 Email
-Subscribe
+Đăng ký
 
 .footer__copy
-&#169; All Rights Reserved By Bedimcode
+&#169; Bản quyền thuộc PhongNguyen
