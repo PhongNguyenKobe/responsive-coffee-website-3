@@ -5,17 +5,18 @@
 :root {
   --header-height: 3.5rem;
 
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(166, 80%, 40%);
-  --first-color-alt: hsl(166, 78%, 38%);
-  --title-color: hsl(166, 95%, 15%);
-  --text-color: hsl(166, 12%, 40%);
-  --white-color: hsl(166, 100%, 99%);
-  --dark-color: hsl(166, 95%, 12%);
-  --body-color: hsl(166, 56%, 18%);
-  --body-white-color: hsl(0, 0%, 100%);
-  --body-first-color: hsl(166, 80%, 40%);
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+--first-color: hsl(25, 60%, 40%);        /* Nâu cà phê chính */
+--first-color-alt: hsl(25, 55%, 35%);    /* Nâu đậm hơn cho hover */
+--title-color: hsl(25, 70%, 20%);        /* Nâu sẫm cho tiêu đề */
+--text-color: hsl(25, 15%, 35%);         /* Nâu xám nhẹ cho nội dung */
+--white-color: hsl(0, 0%, 100%);         /* Trắng tinh khiết */
+--dark-color: hsl(25, 65%, 15%);         /* Nâu rất đậm */
+--body-color: hsl(30, 62%, 80%);         /* Be sáng cho nền */
+--body-white-color: hsl(0, 0%, 100%);    /* Trắng nền phụ */
+--body-first-color: hsl(25, 60%, 40%);   /* Nâu chủ đạo */
+
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -208,13 +209,125 @@ img {
   top: 0;
 }
 /* Add shadow header */
-
+.shadow-header{
+  box-shadow: 0 4px 16px hsla(25, 60%, 40%, .3);
+}
 /* Active link */
 
 /*=============== HOME ===============*/
+.home__container{
+  position: relative;
+  padding-top: 3rem;
+  row-gap: 0;
+}
 
+.home__title{
+  color: var(--white-color);
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  text-align: center;
+}
+
+.home__images{
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
+.home__shape{
+  width: 280px;
+  height: 280px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
+}
+
+.home__images img{
+  position: absolute;
+}
+
+.home__coffee{
+  width: 160px;
+  top: -3.5rem;
+  rotate: 10deg;
+}
+
+.home__splash{
+  max-width: initial;
+  width: 350px;
+  rotate: 10deg;
+  left: -3rem;
+  bottom: .5rem;
+}
+
+.home__bean-1,
+.home__bean-2{
+  width: 40px;
+}
+
+.home__bean-1{
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.home__bean-2{
+  right: 3.5rem;
+  bottom: 6.5rem;
+  rotate: -90deg;
+  filter: blur(2px);
+}
+.home__ice-1{
+  width: 50px;
+  left: 1.5rem;
+  bottom: 3rem;
+}
+
+.home__ice-2{
+  width: 40px;
+  top: 4rem;
+  right: 1.25rem;
+  rotate: 60deg;
+}
+
+.home__leaf{
+  width: 50px;
+  right: 6rem;
+  bottom: -1rem;
+  rotate: -15deg;
+}
+
+.home__sticker{
+  position: absolute;
+  width: 50px;
+  right: 0.5rem;
+  top: 29rem;
+  rotate: 15deg;
+}
+
+.home__data{
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.home__description{
+  color: var(--white-color);
+  margin-bottom: 1.5rem;
+}
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  font-weight: var(--font-semi-bold);
+  transition: background .4s, box-shadow .4s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+  box-shadow: 0 8px 24px hsla(25, 60%, 40%, .3);
+}
 /*=============== POPULAR ===============*/
 
 /* Swiper class */
