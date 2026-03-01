@@ -39,7 +39,7 @@ CÀ PHÊ MOCHA
 TÌM HIỂU <br> VỀ CHÚNG TÔI
 
 .about__description
-Chào mừng đến với StarCoffee, nơi cà phê là niềm đam mê thuần khiết. 
+Với PhongNguyenCOFFEE, nơi cà phê là niềm đam mê thuần khiết. 
 Từ hạt đến tách, chúng tôi luôn tận tâm mang đến sự xuất sắc trong từng ngụm. 
 Hãy cùng chúng tôi bước vào hành trình hương vị và chất lượng, được tạo nên bằng tình yêu, 
 để mang đến trải nghiệm cà phê tuyệt vời nhất.
