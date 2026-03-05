@@ -27,11 +27,11 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li>
-                     <a href="#" class="nav__link">Trang chủ</a>
+                     <a href="#home" class="nav__link active-link">Trang chủ</a>
                   </li>
 
                   <li>
-                     <a href="#home" class="nav__link">Phổ biến</a>
+                     <a href="#popular" class="nav__link">Phổ biến</a>
                   </li>
 
                   <li>
@@ -308,17 +308,116 @@
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <h2 class="section__title">Liên hệ với chúng tôi</h2>
+
+            <div class="contact__container container grid">
+               <div class="contact__info grid">
+                  <div>
+                     <h3 class="contact__title">Thông tin liên hệ</h3>
+
+                     <div class="contact__social">
+                        <a href="https://www.facebook.com" target="_blank" class="contact__social-link">
+                           <i class="ri-facebook-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="contact__social-link">
+                           <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="_blank" class="contact__social-link">
+                           <i class="ri-youtube-fill"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <div>
+                     <h3 class="contact__title">Địa chỉ</h3>
+                     <address class="contact__address">123 Đường ABC, Quận XYZ, TP. HCM</address>
+
+                     <a href="https://maps.app.goo.gl/UJ3SbL9daC9VZwhM6" class="contact__map" target="_blank">
+                        <i class="ri-map-pin-fill"></i>
+                        <span>Xem trên bản đồ</span>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="contact__info grid">
+                  <div>
+                     <h3 class="contact__title">Giao hàng</h3>
+
+                     <address class="contact__address">
+                        <a href="https://shopeefood.vn/" class="contact__social-link">
+                           ShopeeFood
+                        </a>
+                     </address>
+                  </div>
+
+                   <div>
+                     <h3 class="contact__title">Giờ hoạt động</h3>
+
+                     <address class="contact__address">
+                        Thứ hai - Chủ nhật <br> 9h sáng - 10h tối
+                     </address>
+                  </div>
+               </div>
+
+               <div class="contact__images">
+                  <div class="contact__shape"></div>
+                  <img src="assets/img/contact-delivery.png" alt="image" class="contact__delivery">
+               </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div>
+               <h3 class="footer__title">Social</h3>
+
+               <div class="footer__social">
+                  <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                     <i class="ri-facebook-fill"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+
+                  <a href="https://www.youtube.com" target="_blank" class="footer__social-link">
+                     <i class="ri-youtube-fill"></i>
+                  </a>
+               </div>
+            </div>
+
+             <div>
+               <h3 class="footer__title">Phương thức thanh toán</h3>
+               <div class="footer__pay">
+                  <img src="assets/img/footer-card-1.png" alt="image" class="footer__pay-card">
+                  <img src="assets/img/footer-card-2.png" alt="image" class="footer__pay-card">
+                  <img src="assets/img/footer-card-3.png" alt="image" class="footer__pay-card">
+                  <img src="assets/img/footer-card-4.png" alt="image" class="footer__pay-card">
+            </div>
+
+             <div>
+               <h3 class="footer__title">Đăng ký nhận ưu đãi</h3>
+
+               <form action="" class="footer__form">
+                  <input type="email" placeholder="Nhập email của bạn" class="footer__input">
+                  <button type="submit" class="footer__button button">Đăng Ký</button>
+               </form>
+            </div>
+         </div>
+
+         <span class="footer__copy">
+            &#169; All rights reserved by PhongNguyen
+         </span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+      <a href="#" class="scroll-up" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
       <!--=============== SCROLLREVEAL ===============-->
       <script src=""></script>
 
